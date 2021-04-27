@@ -1,0 +1,367 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, pre,
+a, img, var, ul, li,{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+html{
+		background-color: rgb(0,49,83);
+}
+
+.body{
+	width: 100vw;
+}
+.title{
+	width: 65vw;
+	display: grid;
+	margin-left: auto;
+	margin-right: auto;
+	grid-template-columns: 57fr 63fr 51fr 60fr 19fr 58fr 38fr 59fr 65fr 57fr 85fr 60fr
+}
+
+.box{
+	display: inline-block;
+	text-align: center;
+	margin-top: 18vh;
+	position: relative;
+}
+
+.subtitle{
+	width: 65vw;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	margin-top: -20px;
+}
+
+.intro{
+	width: 54vw;
+	padding-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+}
+
+.logo{
+	width: 65vw;
+	display: grid;
+	align-self: center;
+	justify-content: center;
+	padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+img{
+	max-width: 100%;
+  height: auto;
+}
+
+section{
+	display: grid;
+	width: 95vw;
+	grid-template-columns: 1fr 1fr;
+	line-height: 1.4;
+	padding-top: 28vh;
+	padding-bottom: 10px;
+	margin-left: 5vw;
+	margin-right: 4vw;
+}
+
+#ar{
+	padding-left: 5vw;
+}
+
+#sz{
+	grid-column-start: 2;
+	padding-left: 3vw;
+}
+
+h1{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 8vw;
+	letter-spacing: -3px;
+	color: rgb(235,235,235);
+}
+
+h2{
+	font-family: sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1.7rem;
+	line-height: 1.3;
+	color: rgb(235,235,235);
+	text-align: center;
+}
+
+p{
+	font-family: sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1.3rem;
+	line-height: 1.7;
+	color: rgb(235,235,235);
+}
+
+a{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.4rem;
+	color: rgb(235,235,235);
+	text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255,221,0);
+}
+
+span{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.4rem;
+	color: rgb(255,255,255);
+}
+
+.bardoption{
+	text-align: left;
+	display:none;
+	padding-left: 46px;
+}
+
+.bostonoption{
+	text-align: left;
+	display:none;
+	padding-left: 46px;
+}
+
+.cccoption{
+	text-align: left;
+	display:none;
+	padding-left: 46px;
+}
+
+.hartfordoption{
+	text-align: left;
+	display:none;
+	padding-left: 46px;
+}
+
+.kentoption{
+	text-align: left;
+	display:none;
+	padding-left: 46px;
+}
+
+.maineoption{
+	text-align: left;
+	display:none;
+	padding-left: 46px;
+}
+
+.massartoption{
+	text-align: left;
+	display:none;
+	padding-left: 46px;
+}
+
+.nmsuoption{
+	text-align: left;
+	display:none;
+	padding-left: 46px;
+}
+
+.nyuoption{
+	text-align: left;
+	display:none;
+	padding-left: 46px;
+}
+
+.osuoption{
+	text-align: left;
+	display:none;
+	padding-left: 46px;
+}
+
+.pcnwoption{
+	text-align: left;
+	display:none;
+	padding-left: 46px;
+}
+
+.risdoption{
+	text-align: left;
+	display:none;
+	padding-left: 46px;
+}
+
+.svaoption{
+	text-align: left;
+	display:none;
+	padding-left: 46px;
+}
+
+.syraoption{
+	text-align: left;
+	display:none;
+	padding-left: 46px;
+}
+
+.albanyoption{
+	text-align: left;
+	display:none;
+	padding-left: 46px;
+}
+
+.unionoption{
+	text-align: left;
+	display:none;
+	padding-left: 46px;
+}
+
+.uconnoption{
+	text-align: left;
+	display:none;
+	padding-left: 46px;
+}
+
+.umassdoption{
+	text-align: left;
+	display:none;
+	padding-left: 46px;
+}
+
+.uscoption{
+	text-align: left;
+	display:none;
+	padding-left: 46px;
+}
+
+.utoption{
+	text-align: left;
+	display:none;
+	padding-left: 46px;
+}
+
+.uartsoption{
+	text-align: left;
+	display:none;
+	padding-left: 46px;
+}
+
+.yaleoption{
+	text-align: left;
+	display:none;
+	padding-left: 46px;
+}
+
+.footer{
+	width: 83vw;
+	border-top: rgb(225,225,225) solid 1px;
+	margin-top: 280px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 80px;
+}
+
+.foottext{
+	font-size: 1.2rem;
+	line-height: 1.6;
+}
+
+.names{
+	font-family: sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1.2rem;
+	line-height: 1.6;
+	color: rgb(235,235,235);
+}
+
+.touch{
+	border-bottom: rgb(225,225,225) dotted 1px;
+	font-family: sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1.2rem;
+	line-height: 1.6;
+	color: rgb(235,235,235);
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+	.title{
+		padding-top: 15vh;
+	}
+
+	h2{
+		font-size: 1.2rem;
+		width: 60vw;
+		padding-top: 24px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.intro{
+		width: 84vw;
+		padding-top:3vh;
+		position: relative;
+		padding-left: 5px;
+	}
+
+	.logo{
+		width: 70vw;
+	}
+
+	section{
+		display:block;
+		padding-top: 15vh;
+		width: 90vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#ar{
+		padding-left: 3vw;
+	}
+
+	p{
+		font-size: 1rem;
+	}
+
+	.touch{
+		font-size: 1rem;
+	}
+
+	a{
+		font-size: 1rem;
+	}
+
+	span{
+		font-size: 1rem;
+	}
+
+	.footer{
+		width: 84vw;
+		margin-top: 280px;
+	}
+
+	.foottext{
+		font-size: 1rem;
+	}
+
+	.names{
+	  font-size: 1rem;
+	}
+
+}
